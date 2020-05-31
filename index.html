@@ -189,7 +189,7 @@
 
     <section class="modal modal-login">
       <h2>Личный кабинет</h2>
-      <p>Введите пожалуйста свой логин и пароль.</p>
+      <p class="modal-description">Введите пожалуйста свой логин и пароль</p>
       <form class="login-form" action="#" method="post">
         <p>
           <label class="visually-hidden" for="user-login">Логин</label>
@@ -201,17 +201,19 @@
           <input class="login-icon-password" id="user-password" type="password"
                  name="password" placeholder="Пароль">
         </p>
-        <p class="login-password-info">
+        <p class="login-help">
           <label class="login-checkbox">
           <input type="checkbox" name="remember" class="visually-hidden">
-            <span checkbox-indicator></span>
+            <span class="checkbox-indicator"></span>
             Запомни меня
           </label>
             <a class="restore" href="#">Я забыл пароль!</a>
         </p>
         <button class="button" type="submit">Войти</button>
       </form>
-      <button class="modal-close" type="button">Закрыть</button>
+      <button class="modal-close" type="button">
+        <span class="visually-hidden">Закрыть</span>
+      </button>
     </section>
 
     <section class="modal modal-map">
@@ -220,7 +222,9 @@
          <img src="img/map.jpg" width="780" height="560" alt="Офис компании
           по адресу ул. Большая Конюшенная 19/8, Санкт-Петербург">
        </p>
-      <button class="modal-close" type="button">Закрыть</button>
+      <button class="modal-close" type="button">
+        <span class="visually-hidden">Закрыть</span>>
+      </button>
     </section>
 </body>
 </html>
