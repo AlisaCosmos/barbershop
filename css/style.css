@@ -864,7 +864,23 @@ html,body {
   margin: 0;
   margin-bottom: 10px;
 }
+.modal-map {
+  top: 50%;
+  left: 50%;
 
+  display: none;
+
+  width: 766px;
+  height: 561px;
+  margin-top: -280px;
+  margin-left: -390px;
+
+  border: 7px solid white;
+}
+
+.modal-map p {
+  margin: 0;
+}
 .modal-show {
   display: block;
   animation: bounce 0.6s;
@@ -988,23 +1004,9 @@ html,body {
   margin-right: 0;
 }
 
-.modal-map {
-  top: 50%;
-  left: 50%;
 
-  display: none;
 
-  width: 766px;
-  height: 561px;
-  margin-top: -280px;
-  margin-left: -390px;
 
-  border: 7px solid white;
-}
-
-.modal-map p {
-  margin: 0;
-}
 @keyframes bounce {
   0% {
     transform: translateY(-2000px);
